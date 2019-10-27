@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graphic2"
+    tools:context=".homepage1">
+
+    <TextView
+        android:id="@+id/hptv"
+        android:layout_width="139dp"
+        android:layout_height="24dp"
+        android:background="@drawable/roundedback"
+        android:text="   FACULTY LIST "
+        android:textColor="#EAEBF0"
+        android:textColorHint="#E1E2E7"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <TextView
+        android:id="@+id/apekshatv"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Apeksha S. Chavan"
+        android:textColor="#FDFEFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <TextView
+        android:id="@+id/deeptitv"
+        android:layout_width="111dp"
+        android:layout_height="21dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Deeptti Lawand"
+        android:textColor="#F3EEEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <TextView
+        android:id="@+id/madhutv"
+        android:layout_width="174dp"
+        android:layout_height="21dp"
+        android:background="@drawable/rounded_background"
+        android:text="  Madhu M. Nashipudimath"
+        android:textColor="#ECEDF1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <TextView
+        android:id="@+id/satishtv"
+        android:layout_width="190dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="92dp"
+        android:background="@drawable/rounded_background"
+        android:text="  HoD : Satishkumar L. Verma"
+        android:textColor="#FDF8FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/ajjutv"
+        android:layout_width="91dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Aju R. Palleri"
+        android:textColor="#F0E7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <TextView
+        android:id="@+id/lillytv"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Lilly D. Pradhan"
+        android:textColor="#FDFEFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <TextView
+        android:id="@+id/shubhangitv"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Shubhangi Rathod"
+        android:textColor="#E7E8EC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784" />
+
+    <TextView
+        android:id="@+id/stephytv"
+        android:layout_width="97dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rounded_background"
+        android:text=" Stephy Benny"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+    <ImageView
+        android:id="@+id/ajuiv"
+        android:layout_width="84dp"
+        android:layout_height="82dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247"
+        app:srcCompat="@drawable/aju" />
+
+    <ImageView
+        android:id="@+id/madhuiv"
+        android:layout_width="90dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/madhu" />
+
+    <ImageView
+        android:id="@+id/apekshaiv"
+        android:layout_width="84dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        app:srcCompat="@drawable/apeksha" />
+
+    <ImageView
+        android:id="@+id/deeptiiv"
+        android:layout_width="81dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        app:srcCompat="@drawable/deepti" />
+
+    <ImageView
+        android:id="@+id/lillyiv"
+        android:layout_width="94dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/lily" />
+
+    <ImageView
+        android:id="@+id/satishiv"
+        android:layout_width="103dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:srcCompat="@drawable/satish" />
+
+    <ImageView
+        android:id="@+id/shubhangiiv"
+        android:layout_width="91dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        app:srcCompat="@drawable/shubhangi" />
+
+    <ImageView
+        android:id="@+id/stephyiv"
+        android:layout_width="95dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945"
+        app:srcCompat="@drawable/bnw" />
+
+    <TextView
+        android:id="@+id/floortv"
+        android:layout_width="156dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedback"
+        android:text="      Floor Map"
+        android:textColor="#EDEDF0"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+</androidx.constraintlayout.widget.ConstraintLayout>

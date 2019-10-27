@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blinkpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#578D35"
+    android:backgroundTint="#00A87E7E"
+    android:foregroundTint="#00692D2D"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pcelogo"
+        android:layout_width="235dp"
+        android:layout_height="243dp"
+        android:background="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/piit"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/fftext"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="415dp"
+        android:layout_height="57dp"
+        android:text="   FACULTY FINDER (SE IT)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFAFA"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
